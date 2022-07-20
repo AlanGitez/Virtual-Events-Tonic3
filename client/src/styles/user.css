@@ -1,0 +1,116 @@
+.container.porfile {
+  background-color: transparent;
+  border: none;
+  margin-top: 47px;
+  font-size: 20px;
+}
+
+.user-foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 160px;
+  border: 5px solid #212529;
+  margin-left: 10px;
+}
+.card-header-tabs {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.user-card {
+  width: 174px;
+  margin-left: 208px;
+  position: unset;
+  padding: 0;
+  background-color: rgba(179, 175, 175, 0.452);
+  border: solid 1px #212529;
+}
+.card-title {
+  font-size: 12px;
+}
+.perfil-card {
+  position: unset;
+  width: 60%;
+  border-bottom: none;
+  background-color: rgba(179, 175, 175, 0.452);
+  border: solid 1px #212529;
+  margin: 0 auto;
+}
+.row {
+  flex-direction: row;
+  align-items: flex-start;
+}
+.perfil-input {
+  width: 80%;
+  background-color: #141321;
+  color: aliceblue;
+  border: solid 1px #212529;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 5px;
+}
+.icon-prefil {
+  margin: '1px  10px 2px';
+}
+.nav-item {
+  font-size: 15px;
+  background-color: rgba(179, 175, 175, 0.452);
+}
+p {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  align-content: center;
+}
+.custom-file-input {
+  margin: 0;
+  font-size: small;
+  width: 177px;
+  line-height: inherit;
+}
+
+.input.group {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .row {
+    flex-direction: column-reverse;
+    bs-gutter-x: 0;
+  }
+  .perfil-card {
+    flex-direction: column;
+
+    width: 276px;
+  }
+
+  .user-foto {
+    visibility: hidden;
+    width: 0px;
+  }
+  .user-card {
+    visibility: hidden;
+  }
+  .imag {
+    visibility: hidden;
+    height: 0;
+  }
+  label {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .container.porfile {
+    font-size: small;
+  }
+}

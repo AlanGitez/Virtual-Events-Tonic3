@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,800');
+
+.header {
+  border-radius: 4px;
+  background-color: #ff521b;
+  margin-bottom: 25px;
+}
+.content {
+  border-radius: 4px;
+  border-color: whitesmoke;
+}
+
+.table {
+  border-radius: 2;
+}
+
+.info {
+  display: flex;
+  /* flex-direction: row-reverse; */
+  justify-content: space-between;
+}
+.refresh-btn {
+  width: 20px;
+  height: 25px;
+}
+
+.list ul {
+  display: inline;
+  padding: 0px 0px 0px 0px;
+  margin: 15px;
+}
+
+.list li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 5px;
+}
+
+.container-li {
+  font-size: 28px;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  padding: 0px;
+  margin: 0px;
+  cursor: pointer;
+}
+
+.span-column {
+  display: flex;
+  direction: row;
+  align-items: center;
+}
+
+.head-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.userAdmin {
+  color: #020122;
+  font-size: 30px;
+  justify-content: 'center';
+  cursor: pointer;
+  margin-left: 35%;
+}
+
+.userAdmin:hover {
+  color:yellow !important;
+}
+
+.button-refresh {
+  /*  border: '0.3px outset #ff521b', */
+  color: #020122;
+  font-size: 40px;
+  justify-content: start;
+  cursor: pointer;
+
+}
+
+.button-refresh:hover {
+  color: #ff521b;
+}
+
+.trashcan {
+  color: #020122;
+  font-size: 30px;
+  justify-content: 'center';
+  cursor: pointer;
+  margin-left: 35%;
+
+
+}
+
+.trashcan:hover{
+    color: rgb(182, 12, 12);
+}
+
+
+.update {
+  color: #020122;
+  font-size: 30px;
+  justify-content: 'center';
+  cursor: pointer;
+  margin-left: 35%;
+
+}
+
+.update:hover{
+  color: rgb(15, 168, 15);
+}
+
+
+.send-button{
+    background-color: orange;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.send-button:active{
+ background-color: #ff521b;
+}
+
+
+

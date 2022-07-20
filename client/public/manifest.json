@@ -1,0 +1,28 @@
+{
+  "short_name": "Virtual Events",
+  "name": "Virtual Events by P5 'Dream Team'",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "./",
+  "theme_color": "orange",
+  "background_color": "#020122",
+  "categories": ["entertainment", "streming", "virtual content"],
+  "descripcion": "",
+  "dir": "ltr",
+  "display_override": ["standalone", "fullscreen"]
+}
